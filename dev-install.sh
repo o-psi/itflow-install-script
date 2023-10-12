@@ -126,9 +126,9 @@ print_final_instructions() {
 
 # Welcome Message
 clear
-echo "#############################################"
-echo "# Welcome to the ITFlow Installation Script #"
-echo "#############################################"
+echo "#########################################################"
+echo "# Welcome to the ITFlow Development Installation Script #"
+echo "#########################################################"
 echo ""
 echo "Please follow the prompts to complete the installation."
 echo ""
