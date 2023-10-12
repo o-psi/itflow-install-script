@@ -31,7 +31,7 @@ get_domain() {
 }
 
 get_username() {
-    while [[ $username != * ]]; do
+    while [[ -z $username ]]; do
         echo -ne "Step 2: Please enter your Github Username: "
         read username
     done
